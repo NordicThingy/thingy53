@@ -70,18 +70,10 @@ Dans cette section, vous pourrez installer, désinstaller et sélectionner la ve
 - Appuyez sur le bouton utilisateur du Thingy:53 jusqu'à ce que la LED clignote, indiquant le mode de pairage.
 
 2. Ajout au réseau Matter
-- Lancez une application Matter sur un appareil compatibles (smartphone ou hub domestique)
-- Scannez le QR code généré pour le dispositif ou entrez le code setup fourni dans les logs du terminal
-
-3. Validation du pairage
-- Une fois le dispositif ajouté, vérifiez qu'il est visible dans l'application Matter.
-- Assurez-vous que les attributs des capteurs sont accessibles.
-
-**Tests et Validation**
-1. Lecture des valeurs des capteurs
-- Connectez-vous au Thingy:53 avec un terminal série (par exemple, via PuTTY ou le terminal série nRF connect dans VS code) pour afficher les logs : nrfjprog --com
-- Vérifiez que les données des capteurs (température, humidité, pression) sont correctement transmises.
-
-2. Intégration à une application Matter
-- Utilisez une application domotique compatible Matter pour visualiser les données.
-- Testez les différentes fonctionnalités exposées par le dispositif.
+- télécharger et lancez une application Matter sur un appareil compatibles (smartphone ou hub domestique) (exemple avec Google Home à télécharger sur un téléphone)
+- Ouvrir l'application et connectez vous avec un compte Google
+- Suivez les instructions pour configurer un domicile si ce n’est pas encore fait.
+- Dans l’application Google Home, dans le sous menu Appareils, cliquez sur Ajouter un appareil, puis sur "Appareil compatible avec Matter"
+- Scannez le QR code fourni avec le Thingy:53 avec la nouvelle page ouverte
+- Une fois le Thingy:53 ajouté à Google Home, il aparaitra comme un dispositif dans votre réseau domestique
+- L'application affichera les données disponibles provenant des capteurs.
