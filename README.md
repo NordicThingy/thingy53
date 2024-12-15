@@ -59,7 +59,8 @@ Dans cette section, vous pourrez installer, désinstaller et sélectionner la ve
 - Connectez la carte Thingy:53 à votre ordinateur via un câble micro-USB.
 - Allumez la carte en appuyant sur le bouton SW1 puis en activant l'interrupteur ON/OFF.
 ![thingy53](https://github.com/user-attachments/assets/3cd97461-9562-450e-85fc-998dda2f8b63)
-- Ouvrez nRF Connect for Desktop, puis l'outil Programmer (à installer si nécessaire).
+
+-  Ouvrez nRF Connect for Desktop, puis l'outil Programmer (à installer si nécessaire).
 - Cliquez sur Select a Device et sélectionnez le Thingy:91 dans la liste.
 - Dans Add File, cliquez sur Browse, allez dans le dossier du code > build/zephyr, et sélectionnez app_signed.hex.
 - Cliquez ensuite sur Write, puis Write à nouveau dans la fenêtre de confirmation pour flasher le code.
