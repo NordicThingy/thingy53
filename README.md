@@ -79,3 +79,4 @@ Dans cette section, vous pourrez installer, désinstaller et sélectionner la ve
 - L'application affichera les données disponibles provenant des capteurs.
 
 ⚠️Il faut un appareil connecté Google pour que cette méthode fonctionne (Wifi, écran, enceinte)
+Si vous n'en avez pas, il existe d'autres applications
