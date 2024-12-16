@@ -77,3 +77,5 @@ Dans cette section, vous pourrez installer, désinstaller et sélectionner la ve
 - Scannez le QR code fourni avec le Thingy:53 avec la nouvelle page ouverte
 - Une fois le Thingy:53 ajouté à Google Home, il aparaitra comme un dispositif dans votre réseau domestique
 - L'application affichera les données disponibles provenant des capteurs.
+
+⚠️Il faut un appareil connecté Google pour que cette méthode fonctionne (Wifi, écran, enceinte)
