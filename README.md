@@ -4,8 +4,8 @@ Il facilite la réception des données via Matter. Grâce à ce code, vous pouve
 
 **Matériel nécessaire:**
 - Thingy:53
-- Câble micro USB
-- nRF Connect for Desktop
+- Câble USB-C
+- nRF Connect for Desktop avec l'outil programmer
 - Visual Studio Code (VS Code)
 - nRF Connect sur téléphone
 
@@ -44,16 +44,6 @@ Dans nRF Connect pour VS Code, cliquez sur Gérer le SDK.
 Dans cette section, vous pourrez installer, désinstaller et sélectionner la version active du SDK.
 - Cliquez sur Installer le SDK pour afficher les versions disponibles et choisir celle que vous souhaitez utiliser et installer la, le mieux est de sélectionner la dernière sans parenthèse.
 - Une fois ces étapes terminées, votre environnement est prêt pour le développement avec le SDK nRF Connect et Visual Studio Code.
-
-**Utilisation du code:**
-1. Chargement du code
-- Ouvrir VS Code
-- Télécharger et décompresser le dossier, puis ouvrez le dossier contenant le code dans VS Code (thingy52840_connexion).
-
-2. Build du code :
-- Dans l'extension nRF Connect dans la barre d'activité, cliquez sur Add Build Configuration.
-- Dans Board Target, choisissez thingy53_nrf5340_cpuapp.
-- Cliquez sur Build Configuration et attendez la fin du processus de compilation (environ 10 minutes).
 
 **Envoi du code au Thingy:53:**
 - Connectez la carte Thingy:53 à votre ordinateur via un câble micro-USB.
